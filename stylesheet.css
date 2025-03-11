@@ -8,6 +8,7 @@
     color: white;
     background-color: #1f2937;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-logo {
@@ -80,4 +81,40 @@ button {
 button:hover {
     background-color: rgb(40, 80, 145);
     cursor: pointer;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.boxes {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-txt {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.section2 {
+    margin: 50px;
+    text-align: center;
+}
+
+.img-txt img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-txt p {
+    text-align: center;
 }
