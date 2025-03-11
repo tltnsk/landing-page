@@ -108,6 +108,7 @@ button:hover {
 .section2 {
     margin: 50px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .img-txt img {
@@ -116,5 +117,54 @@ button:hover {
 }
 
 .img-txt p {
+    text-align: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-weight: bold;
+    align-self: self-end;
+}
+
+.section4 {
+    padding: 88px 111px;
+}
+
+.call-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: rgb(27, 57, 104);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 12px;
     text-align: center;
 }
