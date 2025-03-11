@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <div class="top">
-        <div class="header">
+    <div class="header">
+        <div class="header-top">
             <div class="header-logo">
                 <img src="logo.png" alt="Company Logo">
             </div>
-            <div class="header-links">
-                <div class="header-link-1">About Us</div>
-                <div class="header-link-2">Products</div>
-                <div class="header-link-3">Contact Us</div>
-            </div>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our developers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
 
-        <div class="description">
-            <div class="text">
+        <div class="header-body">
+            <div class="hb-left">
                 <div class="title">
                     <h1>Our Company </h1>
                 </div>
-                <div class="company-desc">
-
+                <div class="title-sub">
                     <p> Welcome to our company, where innovation meets code! We are a passionate team of developers,
                         designers, and problem-solvers dedicated to crafting cutting-edge software solutions tailored to
                         your needs. Whether you're a startup or an established business, we’re here to turn your ideas
@@ -34,18 +37,18 @@
                         at a time. Explore our services and let’s start creating something amazing!</p>
 
                 </div>
-                <div class="button">
-                    <button>Sign up</button>
-                </div>
+                <button>Sign up</button>
             </div>
-            <div class="image">
+            <div class="hb-right">
                 <img width="400px" height="300px" src="code.jpg" alt="Coding">
             </div>
         </div>
     </div>
 
     <div class="content">
-        <h1>Information</h1>
+        <div class="title">
+            <h1>Our Developers</h1>
+        </div>
         <div class="images">
             <div class="img-txt">
                 <img width="400px" height="300px" src="dev1.jpg">
